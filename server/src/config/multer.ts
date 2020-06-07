@@ -1,9 +1,6 @@
 import multer, { FileFilterCallback } from 'multer';
 import path from 'path';
 import crypto from 'crypto';
-import e, { request } from 'express';
-
-// TODO: use fileFilter
 
 export default {
     storage: multer.diskStorage({
@@ -17,7 +14,10 @@ export default {
         }
     }),
     fileFilter(request: Request, file: Express.Multer.File, callback: FileFilterCallback) {
-        if (file.mimetype == 'image/png' || file.mimetype == 'image/jpg' || file.mimetype == 'image/jpeg') {
+        if (file.mimetype == 'image/png'
+            || file.mimetype == 'image/jpg'
+            || file.mimetype == 'image/jpeg'
+        ) {
             callback(null, true);
         } else {
             return callback(new Error('Only .png, .jpg and .jpeg format allowed'));
