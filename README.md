@@ -9,6 +9,14 @@ The parts of the app are:
 - A website for registering collection points *(Built with React,js)*
 - The server *(Built with Node.js)*
 
+## Screenshots
+<p align="center">
+  <img width="250px" height="514px" alt="Ecoleta Home Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_01.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Search Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_02.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Details Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_03.jpg">
+</p>
+<p align="center">
+  <img width="750px" height="423px" alt="Ecoleta Web Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_web_01.png">
+</p>
+
 ## Tecnologies
 -  [Node.js](https://nodejs.org/)
 -  [React.js](https://reactjs.org/)
