@@ -1,4 +1,4 @@
-import multer, { FileFilterCallback } from 'multer';
+import multer from 'multer';
 import path from 'path';
 import crypto from 'crypto';
 
@@ -13,7 +13,7 @@ export default {
             callback(null, fileName);
         }
     }),
-    fileFilter(request: Request, file: Express.Multer.File, callback: FileFilterCallback) {
+    fileFilter(request: any, file: any, callback: any) {
         if (file.mimetype == 'image/png'
             || file.mimetype == 'image/jpg'
             || file.mimetype == 'image/jpeg'
