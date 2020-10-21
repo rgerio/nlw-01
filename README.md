@@ -11,10 +11,10 @@ The parts of the app are:
 
 ## Screenshots
 <p align="center">
-  <img width="250px" height="514px" alt="Ecoleta Home Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_01.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Search Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_02.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Details Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_expo_03.jpg">
+  <img width="250px" height="514px" alt="Ecoleta Home Screenshot" src="https://raw.githubusercontent.com/rgerio/nlw-01/master/screenshots/screenshot_expo_01.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Search Screenshot" src="https://raw.githubusercontent.com/rgerio/nlw-01/master/screenshots/screenshot_expo_02.jpg"> &nbsp;&nbsp;&nbsp; <img width="250px" height="514px" alt="Ecoleta Details Screenshot" src="https://raw.githubusercontent.com/rgerio/nlw-01/master/screenshots/screenshot_expo_03.jpg">
 </p>
 <p align="center">
-  <img width="750px" height="423px" alt="Ecoleta Web Screenshot" src="https://raw.githubusercontent.com/rbs7/nlw-01/master/screenshots/screenshot_web_01.png">
+  <img width="750px" height="423px" alt="Ecoleta Web Screenshot" src="https://raw.githubusercontent.com/rgerio/nlw-01/master/screenshots/screenshot_web_01.png">
 </p>
 
 ## Tecnologies
@@ -29,7 +29,7 @@ After installing [Git](https://git-scm.com) and [Node.js](https://nodejs.org/) (
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/rbs7/nlw-01.git
+$ git clone https://github.com/rgerio/nlw-01.git
 
 # For server app
 $ cd server
